@@ -7,8 +7,8 @@ import Layout from "./component/Layout/Layout";
 import AdminPreview from "./component/AdminPreview/AdminPreview";
 import HomeDash from "./component/DashBoard/HomeDash";
 import StudentDashboard from "./component/DashBoard/StudentDashboard";
-import Room from "./component/Dashboard/Room";
 import RequireAuth from "./context/RequireAuth";
+import Room from "./component/DashBoard/Room";
 
 function App() {
   const RenderRoute = () => (
