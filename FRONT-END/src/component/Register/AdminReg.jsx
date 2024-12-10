@@ -6,8 +6,8 @@ import { BsCheck2All } from 'react-icons/bs';
 import {ClipLoader} from 'react-spinners';
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import PasswordInput from '../PasswordInput/PasswordInput';
 import { UserContext } from '../../context/UserContext';
+import PasswordInput from '../PasswordInput/PasswordInput';
 
 const override = {
     display: 'block',
