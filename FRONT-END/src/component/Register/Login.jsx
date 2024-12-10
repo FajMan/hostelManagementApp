@@ -2,8 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Passwordinput from "../PasswordInput/PasswordInput";
 import { toast } from "react-toastify";
-import axios from "axios";
 import { UserContext } from "../../context/UserContext";
+import axios from "axios";
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
